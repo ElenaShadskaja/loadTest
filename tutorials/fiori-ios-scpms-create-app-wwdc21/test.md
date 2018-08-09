@@ -20,6 +20,7 @@ tags: [ tutorial>beginner, products>sap-cloud-platform-internet-of-things, topic
 ### Time to Complete
 15 min
 
+
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Create a Capability)]
