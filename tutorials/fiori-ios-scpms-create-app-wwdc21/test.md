@@ -1,64 +1,63 @@
 ---
-title: Create a Fiori for iOS app in 50 minutes
-description: Create a Fiori for iOS app in 50 minutes
-primary_tag: products>sap-cloud-platform-sdk-for-ios
-tags: [  tutorial>intermediate, operating-system>ios, topic>mobile, topic>odata, products>sap-cloud-platform, products>sap-cloud-platform-sdk-for-ios ]
+title: Install the Paho Client
+description: Install the Paho client to send data to the SAP Cloud Platform Internet of Things Service Cloud using MQTT and REST.
+auto_validation: false
+primary_tag: products>sap-cloud-platform-internet-of-things
+tags: [ tutorial>beginner, products>sap-cloud-platform-internet-of-things, topic>internet-of-things, topic>cloud ]
 ---
 
-## Prerequisites  
-- **Proficiency:** Intermediate
-- **Tutorials:** [Sign up for a free trial account on SAP Cloud Platform](https://www.sap.com/developer/tutorials/hcp-create-trial-account.html) and [Enable SAP Cloud Platform mobile service for development and operations](https://www.sap.com/developer/tutorials/fiori-ios-hcpms-setup.html)
-- **Development environment:** Apple iMac, MacBook or MacBook Pro running Xcode 9.3 or higher
-- **SAP Cloud Platform SDK for iOS:** Version 2.1
+<!-- loio13db11a65036448ea5194b2a8e922c62 -->
+
+## Prerequisites
+ - **Proficiency:** Beginner
+
 
 ## Details
-### You will learn  
-In this tutorial, you will create a Fiori for iOS application which will show tracking info for purchased packages. This application has the following characteristics:
-
- - Connects to an SAP HANA MDC (Multi-tenant Database Container) XS OData service. It contains records of packages and their delivery status.
- - Use simplified OData querying with the SAP Cloud Platform SDK for iOS
- - Implement SAP Fiori for iOS controls to show timeline data
- - Displays deliveries turnaround times in a bar chart
- - Custom theming
-
-When you are ready, your SAP Fiori for iOS application will resemble the following:
-
-![Final SAP Fiori for iOS application](fiori-ios-scpms-create-app-wwdc-60.png)
-
-> Before you start, make sure you:
-
-> - have downloaded SAP Cloud Platform SDK for iOS **version 2.1 (2.0 SP01)** or earlier. If you have downloaded the latest **version 2.2 (2.0 SP02)** of the SDK, please go to [this tutorial](https://www.sap.com/developer/tutorials/fiori-ios-scpms-create-app-wwdc.html) instead.
-> - have a trial account on SAP Cloud Platform. See [Sign up for a free trial account on SAP Cloud Platform](https://www.sap.com/developer/tutorials/hcp-create-trial-account.html) for more information.
-> - enabled SAP Cloud Platform mobile service for development and operations. See [Enable SAP Cloud Platform mobile service for development and operations](https://www.sap.com/developer/tutorials/fiori-ios-hcpms-setup.html) for more information.
+### You will learn
+- How to install the Paho client for MQTT on Windows or macOS
 
 ### Time to Complete
-**50 Min**
+5 min
 
 ---
 
-[ACCORDION-BEGIN [Step 30: ](Build and run the app)]
+[ACCORDION-BEGIN [Step 1: ](Install the Paho Client on Windows 10)]
 
-First, remove the app from your device, so you will go through the onboarding again.
+1.  Download the [Paho Client (Windows)](http://www.eclipse.org/paho/components/tool//).
 
-Then build and run the app.
+    A ZIP archive `org.eclipse.paho.ui.app-1.0.0-win32.win32.x86_64.zip` should be downloaded.
 
-When launched, you should now see the restyled on-boarding screen with the greenish theme:
+2.  Extract the downloaded ZIP archive.
 
-![Create a NUI stylesheet](fiori-ios-scpms-create-app-wwdc-55.png)
+3.  Launch the `paho.exe` in the extracted folder.
 
-If you proceed further, you will see the navigation bar is also styled:
+    > Note:
+    > **Known Issues:** Paho does not start.
+    >
+    > **Solution:** Unpack the Paho ZIP archive into a folder without white spaces in the absolute path.
+    >
+    >
 
-![Create a NUI stylesheet](fiori-ios-scpms-create-app-wwdc-56.png)
+[VALIDATE_1]
 
-And, unsurprisingly, the custom UI you have created earlier follows the same theme:
+[ACCORDION-END]
 
-![Create a NUI stylesheet](fiori-ios-scpms-create-app-wwdc-57.png)
+[ACCORDION-BEGIN [Step 2: ](Install the Paho Client on macOS)]
 
-![Create a NUI stylesheet](fiori-ios-scpms-create-app-wwdc-59.png)
+1.  Download the [Paho Client (macOS)](http://www.eclipse.org/paho/components/tool//).
 
-> For more on theming SAP Fiori for iOS components, see [Branding & Theming](https://help.sap.com/doc/978e4f6c968c4cc5a30f9d324aa4b1d7/Latest/en-US/Documents/Frameworks/SAPFiori/Branding%20and%20Theming.html)
+    A GZ archive `org.eclipse.paho.ui.app-1.0.0-macosx.cocoa.x86_64.tar.gz` should be downloaded.
 
-> For more on `NUI`, see [NUI readme](https://github.com/tombenner/nui/)
+2.  Extract the downloaded GZ archive.
+
+3.  Launch the `paho.app` in the extracted folder.
+
+    > Note:
+    > **Known Issues:** Paho quits unexpectedly.
+    >
+    > **Solution:** Choose `Paho.app` and show package content. Launch Paho in folder `/Contents/MacOS`.
+    >
+    >
 
 [DONE]
 
