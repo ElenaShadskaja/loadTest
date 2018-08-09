@@ -504,7 +504,8 @@ tags: [ tutorial>beginner, products>sap-cloud-platform-internet-of-things, topic
 
     ```bash
     {"sensorAlternateId":"07c0a15c0d0baeb7","capabilityAlternateId":"e6ae441b8820c91f"
-    ,"command":{"LED":"true","Buzzer":"true","Speed":50.0}}    ```
+    ,"command":{"LED":"true","Buzzer":"true","Speed":50.0}}
+    ```
 [DONE]
 
 [ACCORDION-END]
