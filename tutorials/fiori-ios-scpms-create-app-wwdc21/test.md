@@ -63,5 +63,3 @@ And, unsurprisingly, the custom UI you have created earlier follows the same the
 [DONE]
 
 [ACCORDION-END]
-
----
