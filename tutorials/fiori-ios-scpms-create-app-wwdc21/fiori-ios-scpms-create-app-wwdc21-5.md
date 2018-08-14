@@ -32,7 +32,7 @@ When you are ready, your SAP Fiori for iOS application will resemble the followi
 > - enabled SAP Cloud Platform mobile service for development and operations. See [Enable SAP Cloud Platform mobile service for development and operations](https://www.sap.com/developer/tutorials/fiori-ios-hcpms-setup.html) for more information.
 
 ### Time to Complete
-**50 Min**
+**500 Min**
 
 ---
 
