@@ -95,7 +95,6 @@ Double-click the **SAP Cloud Platform SDK for iOS Assistant** icon to start the 
 [DONE]
 [ACCORDION-END]
 
-
 [ACCORDION-BEGIN [Step 3: ](Create an Xcode Project)]
 
 Click the **Plus** button on the top-right of the SDK Assistant. The first page of the Xcode Project generation wizard lets you define the Project Properties.
