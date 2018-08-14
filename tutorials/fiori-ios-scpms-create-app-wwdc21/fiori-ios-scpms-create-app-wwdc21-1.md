@@ -3,6 +3,7 @@ title: Create a Fiori for iOS app in 50 minutes
 description: Create a Fiori for iOS app in 50 minutes
 primary_tag: products>sap-cloud-platform-sdk-for-ios
 tags: [  tutorial>intermediate, operating-system>ios, topic>mobile, topic>odata, products>sap-cloud-platform, products>sap-cloud-platform-sdk-for-ios ]
+time: 30
 ---
 
 ## Prerequisites  
@@ -35,6 +36,7 @@ When you are ready, your SAP Fiori for iOS application will resemble the followi
 **50 Min**
 
 ---
+
 
 [ACCORDION-BEGIN [Step 1: ](Configure SAP Cloud Platform SDK for iOS Assistant)]
 
