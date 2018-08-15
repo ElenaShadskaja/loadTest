@@ -11,6 +11,7 @@ tags: [  tutorial>intermediate, operating-system>ios, topic>mobile, topic>odata,
 - **Development environment:** Apple iMac, MacBook or MacBook Pro running Xcode 9.3 or higher
 - **SAP Cloud Platform SDK for iOS:** Version 2.1
 
+
 ## Details
 ### You will learn  
 In this tutorial, you will create a Fiori for iOS application which will show tracking info for purchased packages. This application has the following characteristics:
