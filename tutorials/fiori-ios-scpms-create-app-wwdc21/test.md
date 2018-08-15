@@ -19,8 +19,6 @@ time: 90
 - How to send commands to Internet of Things Service Cloud using MQTT
 - How to use Paho as a sample client for MQTT
 
-### Time to Complete
-15 min
 
 
 ---
