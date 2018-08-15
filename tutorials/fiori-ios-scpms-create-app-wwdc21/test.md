@@ -16,6 +16,7 @@ time: 900
  - **Tutorials:** You have completed [Install the Paho Client] and [Install OpenSSL].
 
 
+
 ## Details
 ### You will learn
 - How to send commands to Internet of Things Service Cloud using MQTT
