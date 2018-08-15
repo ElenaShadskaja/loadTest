@@ -22,7 +22,7 @@ time: 900
 - How to use Paho as a sample client for MQTT
 
 ### Time to Complete
-**50 Min**
+**51 Min**
 
 ---
 
