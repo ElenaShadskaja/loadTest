@@ -5,7 +5,7 @@ auto_validation: false
 primary_tag: products>sap-cloud-platform-internet-of-things
 tags: [ tutorial>mobile,tutorial>hana,tutorial>advanced,tutorial>beginner, products>sap-cloud-platform-internet-of-things, topic>internet-of-things, topic>cloud ]
 experience: tutorial>beginner
-time: 900
+time: 91
 ---
 
 
