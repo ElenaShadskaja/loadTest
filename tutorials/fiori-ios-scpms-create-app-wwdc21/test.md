@@ -26,7 +26,6 @@ time: 900
 
 ---
 
-
 [ACCORDION-BEGIN [Step 1: ](Create a Capability)]
 
 1.  Open the Internet of Things API Service UI.
