@@ -16,6 +16,7 @@ time: 21
 ### You will learn  
 In this tutorial, you will create a Fiori for iOS application which will show tracking info for purchased packages. This application has the following characteristics:
 
+
  - Connects to an SAP HANA MDC (Multi-tenant Database Container) XS OData service. It contains records of packages and their delivery status.
  - Use simplified OData querying with the SAP Cloud Platform SDK for iOS
  - Implement SAP Fiori for iOS controls to show timeline data
